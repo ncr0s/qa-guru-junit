@@ -1,5 +1,6 @@
 package guru.qa;
 
+import com.codeborne.selenide.SelenideElement;
 import guru.qa.data.Locale;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -7,10 +8,13 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selectors.withText;
+import static com.codeborne.selenide.Selenide.*;
 
 public class JunitSimpleTest {
+
+    SelenideElement rejectCookies = $$("button").findBy(text("Reject all"));
 
     @Disabled("JIRA-1312")
     @DisplayName("Demo test")
@@ -35,7 +39,9 @@ other variant:
             String productUrl
     ) {
         open("https://www.google.com/");
-        $("[id=W0wltc]").click();
+        if (rejectCookies.isDisplayed()) {
+            rejectCookies.click();
+        }
         $("[name=q]").setValue(productName).pressEnter();
         $("[id=search]").shouldHave(text(productUrl));
     }

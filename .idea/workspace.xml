@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31bb314-efe6-44d4-842d-5a64e37d1607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/JunitSimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/SelenideSite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/guru/qa/data/Locale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/JunitSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/JunitSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/qa/SelenideSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guru/qa/SelenideSite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +64,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/avolosovich/AT_repos/person/qa-guru-junit"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.SelenideSite">
+  <component name="RunManager" selected="Gradle.JunitSimpleTest.successfulSearchSelenideTest">
     <configuration name="JunitSimpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JunitSimpleTest.successfulSearchSelenideTest" />
+        <item itemvalue="Gradle.JunitSimpleTest" />
         <item itemvalue="Gradle.SelenideSite" />
         <item itemvalue="Gradle.SelenideSite.selenideShouldContainAllOfButtonsForDifferentLocales" />
-        <item itemvalue="Gradle.JunitSimpleTest.successfulSearchSelenideTest" />
         <item itemvalue="Gradle.JunitSimpleTest.successfulSearchAllureTest" />
-        <item itemvalue="Gradle.JunitSimpleTest" />
       </list>
     </recent_temporary>
   </component>
